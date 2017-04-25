@@ -1,6 +1,6 @@
 # npmtest-languagedetect
 
-#### test coverage for  [languagedetect (v1.1.1)](http://blog.fgribreau.com/2011/07/week-end-project-nodejs-language.html)  [![npm package](https://img.shields.io/npm/v/npmtest-languagedetect.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-languagedetect) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-languagedetect.svg)](https://travis-ci.org/npmtest/node-npmtest-languagedetect)
+#### basic test coverage for  [languagedetect (v1.1.1)](http://blog.fgribreau.com/2011/07/week-end-project-nodejs-language.html)  [![npm package](https://img.shields.io/npm/v/npmtest-languagedetect.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-languagedetect) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-languagedetect.svg)](https://travis-ci.org/npmtest/node-npmtest-languagedetect)
 
 #### Nodejs language detection library using n-gram
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-languagedetect/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-languagedetect/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-languagedetect/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-languagedetect/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-languagedetect/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-languagedetect/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-languagedetect/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-languagedetect/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-languagedetect/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-languagedetect/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-languagedetect/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-languagedetect/build/coverage.html/index.html)
 
@@ -89,7 +89,8 @@
     "scripts": {
         "test": "node_modules/nodeunit/bin/nodeunit test/*.test.js"
     },
-    "version": "1.1.1"
+    "version": "1.1.1",
+    "bin": {}
 }
 ```
 
